@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Git_Hub_Demo...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31" started-at="2021-01-06T14:39:50Z" finished-at="2021-01-06T14:39:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31" started-at="2021-01-06T14:39:50Z" finished-at="2021-01-06T14:39:50Z">
+      <class name="com_ActiTime_Tests.Demo">
+        <test-method status="PASS" signature="testA()[pri:0, instance:com_ActiTime_Tests.Demo@46d56d67]" name="testA" duration-ms="8" started-at="2021-01-06T14:39:50Z" finished-at="2021-01-06T14:39:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Git_Hub_Demo...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- com_ActiTime_Tests.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

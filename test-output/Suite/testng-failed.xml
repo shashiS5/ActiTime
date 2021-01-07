@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="nodeurl" value="http://localhost:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="appurl" value="https://demo.actitime.com/login.do"/>
+    <classes>
+      <class name="com_ActiTime_Tests.ValidLoginLogoutTest">
+        <methods>
+          <include name="ValidLoginLogout"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- com_ActiTime_Tests.ValidLoginLogoutTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
